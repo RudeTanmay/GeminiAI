@@ -22,7 +22,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 #function to load geminin pro model for the chatbot
 def load_gemini_pro_model():
-    gemini_pro_model=genai.GenerativeModel("gemini-pro")
+    gemini_pro_model=genai.GenerativeModel("gemini-1.5-pro")
     return gemini_pro_model
 
 
